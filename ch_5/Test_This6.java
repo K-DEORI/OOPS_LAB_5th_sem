@@ -1,0 +1,15 @@
+package ch_5;
+class A{
+  A(){
+    this(5);
+    System.out.println("hello a");
+  }
+  A(int x){
+    System.out.println(x);
+  }
+}
+class Test_This6{
+  public static void main(String args[]){
+    A a=new A();
+  }
+}
